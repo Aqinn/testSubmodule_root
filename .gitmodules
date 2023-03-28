@@ -1,0 +1,3 @@
+[submodule "testSubmodule_sub1"]
+	path = testSubmodule_sub1
+	url = git@github.com:Aqinn/testSubmodule_sub1.git
