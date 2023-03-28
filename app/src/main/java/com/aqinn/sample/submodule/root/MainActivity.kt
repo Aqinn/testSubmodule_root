@@ -3,6 +3,7 @@ package com.aqinn.sample.submodule.root
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
+import com.aqinn.sample.subtree.subapplication.SubAppUtils
 
 class MainActivity : AppCompatActivity() {
 
@@ -14,7 +15,7 @@ class MainActivity : AppCompatActivity() {
 
         btTest = findViewById(R.id.bt_test)
         btTest.setOnClickListener {
-
+            SubAppUtils.sayHi(this@MainActivity)
         }
     }
 }

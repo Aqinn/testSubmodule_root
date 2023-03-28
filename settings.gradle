@@ -15,4 +15,4 @@ dependencyResolutionManagement {
 rootProject.name = "RootModule"
 include ':app'
 include 'sub1'
-project(':sub1').projectDir = file('./testSubmodule_sub1')
+project(':sub1').projectDir = file('./testSubmodule_sub1/subapplication')
