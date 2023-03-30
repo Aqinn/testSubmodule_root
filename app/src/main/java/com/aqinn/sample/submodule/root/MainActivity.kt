@@ -17,5 +17,7 @@ class MainActivity : AppCompatActivity() {
         btTest.setOnClickListener {
             SubAppUtils.sayHi(this@MainActivity)
         }
+
+        // test 同时修改主仓和子仓
     }
 }
